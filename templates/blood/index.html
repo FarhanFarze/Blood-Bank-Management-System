@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .xyz{
+          margin-bottom: 0px;
+          background-image: url('{% static "image/Homepage.png" %}');
+          background-size: fullcover;
+          background-repeat: no-repeat;
+        }
+      </style>
+      
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+    <div class="container text-center">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     
+      
+      <br><br><br><br>
+      
+    </div>  
+  </section>
+
+
+  <div class="jumbotron" style="margin-top: 0px;margin-bottom: 0px;">
+
+    <h2 class="lead text-center">Welcome To Blood Bank Management System
+    </h2>
+    
+    <p class="text-center"> ​❜❜𝓞𝙣𝙚 𝓑𝙖𝙜 𝓞𝙛 𝓑𝙡𝙤𝙤𝙙 𝓒𝙖𝙣 𝓑𝙧𝙞𝙣𝙜 𝓑𝙖𝙘𝙠 𝓞𝙣𝙚 𝓕𝙧𝙤𝙢 𝓣𝙝𝙚 𝓓𝙚𝙖𝙙​❜❜ </p>
+    
+  </div>
+  {% include "blood/footer.html" %}
+
+</body>
+
+</html>
